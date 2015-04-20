@@ -244,8 +244,7 @@ class Trello:
 
 ## This is an usage example. You can delete it.		
 trello_instance = Trello()
-export = ["id","board","card","name"]
-filtering = ["Itx","Welcome Board"]
+filtering = ["Welcome Board"]
 boards = trello_instance.export_boards(filtering)
 print "Exported boards"
 cards = trello_instance.export_cards(boards)
